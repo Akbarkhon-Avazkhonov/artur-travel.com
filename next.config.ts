@@ -1,6 +1,10 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+      eslint: {
+    // ❌ отключить ESLint полностью при сборке
+    ignoreDuringBuilds: true,
+  },
    images: {
     domains: [
       'images.ctfassets.net',

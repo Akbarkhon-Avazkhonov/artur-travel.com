@@ -7,7 +7,7 @@ import six from "@/public/images/team/06.jpg";
 import seven from "@/public/images/team/07.jpg";
 import eight from "@/public/images/team/08.jpg";
 
-const TeamTwoData = [
+const TeamTwoData= [
   {
     id: 0,
     image: "https://hips.hearstapps.com/hmg-prod/images/single-women-happier-than-men-675ac891b545d.jpg?crop=0.670xw:1.00xh;0.247xw,0&resize=640:*",
@@ -52,50 +52,7 @@ const TeamTwoData = [
     instagram: "/",
     delay: "800",
   },
-  {
-    id: 4,
-    image: five,
-    name: "Alexandra Roberts",
-    designation: "Travel Consultant",
-    destination: "/team-details",
-    facebook: "/",
-    twitter: "/",
-    instagram: "/",
-    delay: "200",
-  },
-  {
-    id: 5,
-    image: six,
-    name: "Michael Thompson",
-    designation: "Operations Manager",
-    destination: "/team-details",
-    facebook: "/",
-    twitter: "/",
-    instagram: "/",
-    delay: "400",
-  },
-  {
-    id: 6,
-    image: seven,
-    name: "Sophia Chen",
-    designation: "Tourist Guide",
-    destination: "/team-details",
-    facebook: "/",
-    twitter: "/",
-    instagram: "/",
-    delay: "600",
-  },
-  {
-    id: 7,
-    image: eight,
-    name: "Michel Smith",
-    designation: "Marketing Specialist",
-    destination: "/team-details",
-    facebook: "/",
-    twitter: "/",
-    instagram: "/",
-    delay: "800",
-  },
+
 ];
 
 export default TeamTwoData;

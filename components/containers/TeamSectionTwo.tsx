@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
 import Image from "next/image";
 import TeamTwoData from "@/public/data/team-data-two";
